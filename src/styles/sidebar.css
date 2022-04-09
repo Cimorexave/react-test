@@ -1,0 +1,84 @@
+/* sidebar stylings */
+:root {
+    --darkblue-clr : #081A51;
+    --lightblue-clr: #017EFA;
+}
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.sidebar {
+    background-color: var(--darkblue-clr);
+    position: fixed;
+    width: 326px;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.sidebar > * {
+    display: block;
+}
+.logo-comp, .logo-comp > * {
+    height: 50px;
+    width: 70%;
+    left: 0;
+    color: var(--darkblue-clr);
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    font-weight: bold;
+    font-size: large;
+}
+.sidebar p {
+    color: var(--lightblue-clr);
+    font-size: small;
+}
+.logo-icon {
+    width: fit-content;
+    left: 5%;
+}
+.list-item {
+    height: 50px;
+    text-align: center;
+}
+.help-card {
+    background-color: #1B2B65;
+    display: flex;
+    color: lightblue;
+    position: absolute;
+    border-radius: 20px;
+    left: 25px;
+    bottom: 25px;
+    width: 80%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.help-card > * {
+    position: absolute;
+}
+.help-icon {
+    background-color: var(--lightblue-clr);
+    width: 25px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border:  solid lightblue 5px;
+    top: -12px;
+    text-align: center;
+}
+.help-card p {
+    transform: translateY(-15px);
+}
+.help-button {
+    width: 80%;
+    height: 50px;
+    background-color: var(--lightblue-clr);
+    border-radius: 10px;
+    border-style: none;
+    bottom: 10%;
+}
