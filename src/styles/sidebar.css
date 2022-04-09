@@ -73,6 +73,7 @@
 }
 .help-card p {
     transform: translateY(-15px);
+    color: white;
 }
 .help-button {
     width: 80%;
