@@ -1,32 +1,32 @@
-import React from 'react'
-
+import React from 'react';
+import '../styles/sidebar.css';
 const Sidebar = () => {
   return (
     <div className='sidebar'>
         <button className='close-sidebar'></button>
-        <div className='logo'>
+        <div className='logo-comp'>
+            <i className='logo-icon'>i</i>
             Rising
-            <i className='logo-icon'></i>
         </div>
         <div className='list-item'>
             Dashboard
-            <i className='dasboard-icon'></i>
+            <i className='dasboard-icon'>i</i>
         </div>
         <p>Main</p>
         <div className='list-item'>
             Home
-            <i className='home-icon'></i>
+            <i className='home-icon'>i</i>
         </div>
         <div className='list-item'>
             Inbox
-            <i className='inbox-icon'></i>
+            <i className='inbox-icon'>i</i>
         </div>
         <div className='list-item'>
             Setting
-            <i className='setting-icon'></i>
+            <i className='setting-icon'>i</i>
         </div>
         <div className='help-card'>
-            <i className='help-icon'></i>
+            <div className='help-icon'>?</div>
             <p>Need Help with Rising?</p>
             <button className='help-button'>Go to help center</button>
         </div>
