@@ -3,16 +3,16 @@ import '../styles/sidebar.css';
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-        <button className='close-sidebar'></button>
+        <button className='close-sidebar'>{"<"}</button>
         <div className='logo-comp'>
             <i className='logo-icon'>i</i>
-            Rising
+            <p className='logo-comp-p'>Rising</p>
         </div>
         <div className='list-item'>
             Dashboard
             <i className='dasboard-icon'>i</i>
         </div>
-        <p>Main</p>
+        <p className='main-p'>Main</p>
         <div className='list-item'>
             Home
             <i className='home-icon'>i</i>
