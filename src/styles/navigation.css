@@ -1,1 +1,38 @@
+@import "./sidebar.css";
+
 /* navigation stylings */
+.navigation {
+    margin-left: calc(326px + 3%);
+}
+.warning {
+    background-color: #FFD1D1;
+    display: flex;
+    padding: 10px;
+    width: 800px;
+    margin-top: 20px;
+}
+.warning i {
+    display: inline;
+}
+.warning p {
+    color: red;
+}
+button {
+    width: 173px;
+    height: 41px;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px grey;
+}
+.inbox-btn {
+    color: var(--lightblue-clr);
+}
+.navigation-buttons {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+hr {
+    margin-top: 20px;
+}
