@@ -13,6 +13,14 @@ function App() {
       <Navigation />
       <div className="container">
         <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   );
