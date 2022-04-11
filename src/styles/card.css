@@ -40,3 +40,60 @@ hr {
     border-style: none;
     border-radius: 5px;
 }
+.inner-card-ps p {
+    color: var(--darkblue-clr);
+    font-size: 1em;
+    margin-top: 10px;
+}
+.inner-card-btn {
+    background-color: var(--lightblue-clr);
+    border: 1px solid var(--lightblue-clr);
+    position: absolute;
+    overflow: visible;
+    transform: translateY(-41px);
+}
+.inner-card-btn-one {
+    border-radius: 10px 0 0 0;
+}
+.inner-card-btn-two {
+    transform: translate(173px , -41px);
+    border-radius: 0 10px 0 0;
+    background-color: white;
+    color: var(--lightblue-clr);
+}
+.inner-card {
+    background-color: #EEFBFF;
+    border: 1px solid var(--lightblue-clr);
+    height: max-content;
+    border-radius: 0 10px 10px 10px ;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sticker {
+    display: grid;
+    place-items: center;
+    background-color: white;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.sticker > * {
+    color: var(--darkblue-clr);
+    background-color: var(--lightblue-clr);
+    border: 1px solid var(--lightblue-clr);
+}
+.sticker button {
+    color: white;
+    border-radius: 10px;
+}
+.card-footer {
+    width: 200%;
+    background-color: var(--lightblue-clr);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius:  0 0 5px 5px;
+    margin-top: 15px;
+}
