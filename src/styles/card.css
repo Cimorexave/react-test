@@ -7,5 +7,36 @@
     border: 1px solid grey;
     width: 550px;
     margin-top: 20px;
-    margin-right: 10px;
+    border-radius: 5px;
+    aspect-ratio: 1.5;
+}
+.avatar {
+    border-radius: 50%;
+    width: 1em;
+}
+.card-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: inherit;
+    place-items: center;
+    margin-bottom: 1em;
+}
+p {
+    font-size: 0.75em;
+}
+hr {
+    width: 550px;
+    position: absolute;
+}
+.card-header > * {
+    color: var(--darkblue-clr);
+}
+.card-header h1 {
+    font-size: 1rem;
+    max-width: fit-content;
+}
+.card-header button {
+    background-color: var(--lightblue-clr);
+    border-style: none;
+    border-radius: 5px;
 }

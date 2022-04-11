@@ -15,7 +15,8 @@ const Card = () => {
             <p>98% Winrate</p>
             <p>2713 Signals</p>
             <p>75354 Point</p>
-            <div className='inner-card'>
+        </div>
+        <div className='inner-card'>
                 <button>Overview</button>
                 <button>Full Analysis</button>
                 <div className='sticker'>
@@ -32,7 +33,6 @@ const Card = () => {
                     <p>23:18:51</p>
                 </footer>
             </div>
-        </div>
     </div>
   )
 }
