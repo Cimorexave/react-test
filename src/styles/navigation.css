@@ -1,15 +1,19 @@
-@import "./sidebar.css";
+:root {
+    --darkblue-clr : #081A51;
+    --lightblue-clr: #017EFA;
+}
 
 /* navigation stylings */
 .warning {
     background-color: #FFD1D1;
     display: flex;
     padding: 10px;
-    width: 800px;
+    width: 600px;
     margin-top: 20px;
+    align-items: center;
 }
-.warning i {
-    display: inline;
+.warning-icon {
+    color: red;
 }
 .warning p {
     color: red;

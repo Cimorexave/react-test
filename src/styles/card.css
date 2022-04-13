@@ -1,4 +1,7 @@
-@import './sidebar.css';
+:root {
+    --darkblue-clr : #081A51;
+    --lightblue-clr: #017EFA;
+}
 
 /* card stylings */
 .card {

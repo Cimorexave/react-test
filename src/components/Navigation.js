@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <div className='navigation'>
         <div className='warning'>
-            <i>i</i>
+            <i className=' warning-icon bi bi-exclamation-triangle-fill'></i>
             <p>You can view your purchased or saved analytics here.</p>
         </div>
         <div className='navigation-buttons'>
