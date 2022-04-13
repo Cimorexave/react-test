@@ -13,8 +13,8 @@ const Navigation = () => {
             <button className='inbox-btn'>Crypto Inbox</button>
             <button className='inbox-btn'>Forex Inbox</button>
             <button className='inbox-btn'>Stock Inbox</button>
-            <button>Sort by <i></i></button>
-            <button>Filter <i></i></button>
+            <button className='sort-btn r-btn'>Sort by <i className='bi bi-sort-down'></i></button>
+            <button className='filter-btn r-btn'>Filter <i className='bi bi-filter-right'></i></button>
         </div>
     </div>
   )

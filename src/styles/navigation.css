@@ -9,7 +9,7 @@
     display: flex;
     padding: 10px;
     width: 600px;
-    margin-top: 20px;
+    margin-top: 10px;
     align-items: center;
 }
 .warning-icon {
@@ -17,20 +17,41 @@
 }
 .warning p {
     color: red;
+    font-size: 0.8em;
 }
 button {
-    width: 173px;
-    height: 41px;
+    width: 125px;
+    height: 40px;
     background-color: white;
     padding: 5px;
     border: none;
     box-shadow: 1px 1px 1px grey;
 }
+.inbox-btn:first-child {
+    background-color: var(--lightblue-clr);
+    color: white;
+}
 .inbox-btn {
     color: var(--lightblue-clr);
 }
+.r-btn {
+    background-color: var(--darkblue-clr);
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.filter-btn {
+    right: 30px;
+}   
+.sort-btn {
+    right: 170px;
+}
 .navigation-buttons {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     gap: 10px;
+    margin-bottom: 10px;
 }

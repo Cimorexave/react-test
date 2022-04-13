@@ -12,7 +12,6 @@ function App() {
       <div className="fixed-header">
         <Header />
         <Navigation />
-        <hr />
       </div>
       <div className="container">
         <Card />
