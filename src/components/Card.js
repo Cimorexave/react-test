@@ -11,6 +11,8 @@ const Card = () => {
             <i className='badge'>badge 2</i>
             <button>Follow</button>
             <hr/>
+            <div className="status">
+            </div>
             <p>73M Followers</p>
             <p>98% Winrate</p>
             <p>2713 Signals</p>
