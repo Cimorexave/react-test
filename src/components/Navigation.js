@@ -16,7 +16,6 @@ const Navigation = () => {
             <button>Sort by <i></i></button>
             <button>Filter <i></i></button>
         </div>
-        <hr></hr>
     </div>
   )
 }

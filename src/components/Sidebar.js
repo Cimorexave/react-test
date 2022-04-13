@@ -3,30 +3,32 @@ import '../styles/sidebar.css';
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-        <button className='close-sidebar'>{"<"}</button>
+        <button className='close-sidebar'>
+            <i class="bi bi-arrow-left-short"></i>
+        </button>
         <div className='logo-comp'>
-            <i className='logo-icon'>i</i>
+            <i className="logo-icon bi bi-boxes"></i>
             <p className='logo-comp-p'>Rising</p>
         </div>
         <div className='list-item'>
+            <i className='dasboard-icon bi bi-house-door-fill'></i>
             Dashboard
-            <i className='dasboard-icon'>i</i>
         </div>
         <p className='main-p'>Main</p>
         <div className='list-item'>
+            <i className='home-icon bi bi-display-fill'></i>
             Home
-            <i className='home-icon'>i</i>
         </div>
         <div className='list-item'>
+            <i className='inbox-icon bi bi-inbox-fill'></i>
             Inbox
-            <i className='inbox-icon'>i</i>
         </div>
         <div className='list-item'>
+            <i className='setting-icon bi bi-gear-fill'></i>
             Setting
-            <i className='setting-icon'>i</i>
         </div>
         <div className='help-card'>
-            <div className='help-icon'>?</div>
+            <i className='help-icon bi bi-question-lg'></i>
             <p>Need Help with Rising?</p>
             <button className='help-button'>Go to help center</button>
         </div>
