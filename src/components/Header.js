@@ -5,19 +5,19 @@ const Header = () => {
   return (
     <div className='header'>
         <h1>Signal Inbox</h1>
-        <div>
+        <div className='search-bar-con'>
+          <i className='search-icon bi bi-search'></i>
           <input type='text' placeholder='Search...' className='search-bar' />
-          <i className='serach-icon'></i>
         </div>
         <p className='balance-p'>Balance: $2,895,102</p>
-        |
-        <button className='connect-wallet'>Connect Wallet</button>
-        |
-        <button><i></i></button>
-        <button><i></i></button>
-        <button><i></i></button>
-        <p>Jaxtyn Henry</p>
-        <i></i>
+        <p className="line">|</p>
+        <button className='connect-wallet'><p>Connect Wallet</p></button>
+        <p className="line">|</p>
+        <button className='btn moon-btn'><i className=' btn-i bi bi-moon-fill'></i></button>
+        <button className='btn bell-btn'><i className=' btn-i bi bi-bell-fill'></i></button>
+        <button className='btn person-btn'><i className=' btn-i bi bi-person-circle'></i></button>
+        <p className='jax'>Jaxtyn Henry</p>
+        <i className='i bi bi-chevron-down'></i>
     </div>
   )
 }

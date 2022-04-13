@@ -9,8 +9,11 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-      <Header />
-      <Navigation />
+      <div className="fixed-header">
+        <Header />
+        <Navigation />
+        <hr />
+      </div>
       <div className="container">
         <Card />
         <Card />

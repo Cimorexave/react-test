@@ -1,9 +1,6 @@
 @import "./sidebar.css";
 
 /* navigation stylings */
-.navigation {
-    margin-left: calc(326px + 3%);
-}
 .warning {
     background-color: #FFD1D1;
     display: flex;
@@ -32,7 +29,4 @@ button {
     display: flex;
     margin-top: 20px;
     gap: 10px;
-}
-hr {
-    margin-top: 20px;
 }

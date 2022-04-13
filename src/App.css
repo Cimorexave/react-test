@@ -1,8 +1,17 @@
 @import './styles/sidebar.css';
 .App {
     background-color: #F8F9FF;
+    display: flex;
+}
+.fixed-header {
+    margin-left: calc(326px + 3%);
+    position: fixed;
+    background-color: #F8F9FF;
 }
 .container {
+    margin-top: 30vh;
+    z-index: -1;
+    position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;

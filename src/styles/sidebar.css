@@ -97,7 +97,7 @@
     border: solid 1px grey;
     position: absolute;
     right: -20px;
-    top: 32px;
+    top: 25px;
 }
 button .bi-arrow-left-short {
     color: var(--lightblue-clr);

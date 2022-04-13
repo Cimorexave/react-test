@@ -2,37 +2,79 @@
 @import "./sidebar.css";
 
 .header {
-    margin-left: 326px;
-    height: 10vh;
-    border: solid 1px grey;
+    background-color: white;
+    height: 90px;
     display: flex;
     align-items: center;
     color: var(--darkblue-clr);
-    padding-left: 3%;
     justify-content: space-between;
 }
-.header > *{
+.line {
+    font-size: 2em;
+    font-weight: lighter;
+    color: lightgray;
+    transform: translateY(-4px);
+}
+h1 {
+    font-size: 1.5em;
+    width: 10em;
     color: var(--darkblue-clr);
 }
-.search-bar {
+.search-bar-con {
     position: relative;
     display: flex;
+    padding: 5px;
     width: 300px;
-    text-align: center;
-    height: max-content;
-    padding: 10px;
     border-radius: 25px;
-    background-color: lightgrey;
+    background-color: #F5F7FB;
+    color: #979797;
+}
+.search-bar {
+    margin-left: 25px;
+    font-size: 0.7em;
+    border-style: none;
+    text-align: center;
+    background-color: transparent;
 }
 .search-icon {
-    position: absolute;
+    color: #979797;
+    margin-left: 5px;
 } 
 .balance-p {
     color: var(--lightblue-clr);
+    width: 10em;
+    font-weight: bold;
+    margin-left: 1em;
 }
 .connect-wallet {
     background-color: var(--lightblue-clr);
     border-radius: 25px;
-    width: max-content;
+    height: fit-content;
+    width: 7em;
     padding: 0.5em;
+    margin: 0 5px;
+}
+.btn {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    margin: 0 5px;
+}
+.btn-i {
+    color: var(--darkblue-clr);
+}
+.jax {
+    color: var(--darkblue-clr);
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-left: 20px;
+}
+.i {
+    background-color: transparent;
+    color: var(--darkblue-clr);
+    margin-left: 10px;
 }
