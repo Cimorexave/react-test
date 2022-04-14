@@ -5,18 +5,20 @@ const Card = () => {
   return (
     <div className='card'>
         <div className='card-header'>
-            <i className='avatar'></i>
+            <div className="card-header-top">
+            <i className='avatar bi bi-person-fill'></i>
             <h1>Abhish Mohanty</h1>
-            <i className='badge'>badge 1</i>
-            <i className='badge'>badge 2</i>
+            <i className='bi bi-shield-fill-check badge'></i>
+            <i className='bi bi-trophy-fill badge'></i>
             <button>Follow</button>
+            </div>
             <hr/>
             <div className="status">
+            <p className='status-p'>73M Followers</p>
+            <p className='status-p'>98% Winrate</p>
+            <p className='status-p'>2713 Signals</p>
+            <p className='status-p'>75354 Point</p>
             </div>
-            <p>73M Followers</p>
-            <p>98% Winrate</p>
-            <p>2713 Signals</p>
-            <p>75354 Point</p>
         </div>
         <div className='inner-card'>
                 <button className='inner-card-btn inner-card-btn-one'>Overview</button>
