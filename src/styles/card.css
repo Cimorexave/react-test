@@ -69,20 +69,24 @@ hr {
 .inner-card-ps p {
     color: var(--darkblue-clr);
     font-size: 1em;
-    margin-top: 10px;
+    margin-top: 15px;
+}
+.inner-card-pi {
+    color: var(--darkblue-clr);
+    margin: 10px;
 }
 .inner-card-btn {
     background-color: var(--lightblue-clr);
     border: 1px solid var(--lightblue-clr);
     position: absolute;
     overflow: visible;
-    transform: translateY(-41px);
+    transform: translate( -1px , -41px );
 }
 .inner-card-btn-one {
     border-radius: 10px 0 0 0;
 }
 .inner-card-btn-two {
-    transform: translate(173px , -41px);
+    transform: translate(125px , -41px);
     border-radius: 0 10px 0 0;
     background-color: white;
     color: var(--lightblue-clr);
@@ -91,10 +95,13 @@ hr {
     background-color: #EEFBFF;
     border: 1px solid var(--lightblue-clr);
     height: max-content;
+    width: 530px;
+    margin-left: 10px;
     border-radius: 0 10px 10px 10px ;
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
 }
 .sticker {
     display: grid;
@@ -104,14 +111,32 @@ hr {
     margin-top: 10px;
     border-radius: 10px;
 }
-.sticker > * {
+.medal {
+    margin-top: 10px;
+    width: 85px;
+}
+.sticker-p {
     color: var(--darkblue-clr);
-    background-color: var(--lightblue-clr);
-    border: 1px solid var(--lightblue-clr);
+    font-weight: bold;
+    text-align: center;
+}
+.sticker-p:first-of-type {
+    color: darkgoldenrod;
+    font-size: 1em;
+}
+.sticker-p:nth-of-type(2) {
+    color: var(--lightblue-clr);
+    font-size: 1em;
+}
+.sticker-p:nth-of-type(3) {
+    font-size: 0.6em;
+    font-weight: normal;
 }
 .sticker button {
+    background-color: var(--lightblue-clr);
     color: white;
     border-radius: 10px;
+    width: 80%;
 }
 .card-footer {
     width: 200%;
@@ -119,7 +144,23 @@ hr {
     height: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     border-radius:  0 0 5px 5px;
     margin-top: 15px;
+    position: relative;
+}
+.card-footer-stats {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+.cfp {
+    margin-left: 15px;
+}
+.footer-icons {
+    position: absolute;
+    width: 100px;
+    left: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
