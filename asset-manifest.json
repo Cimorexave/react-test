@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-test/static/css/main.e81d1f61.css",
+    "main.js": "/react-test/static/js/main.9aa874f5.js",
+    "static/js/787.223550ad.chunk.js": "/react-test/static/js/787.223550ad.chunk.js",
+    "static/media/gold-medal.jpg": "/react-test/static/media/gold-medal.14345c7df3dc7735fea0.jpg",
+    "index.html": "/react-test/index.html",
+    "main.e81d1f61.css.map": "/react-test/static/css/main.e81d1f61.css.map",
+    "main.9aa874f5.js.map": "/react-test/static/js/main.9aa874f5.js.map",
+    "787.223550ad.chunk.js.map": "/react-test/static/js/787.223550ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e81d1f61.css",
+    "static/js/main.9aa874f5.js"
+  ]
+}
