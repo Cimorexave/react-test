@@ -5,3 +5,7 @@ a spa built with react. this project was made based on a ui template below and t
 
 To see the live development check the github pages link below: 
 https://cimorexave.github.io/react-test
+
+<h2>
+or if that didn't work simply clone this prject and write the "npm start" in the command line in the project directory
+  </h2>
